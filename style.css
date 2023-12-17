@@ -1,0 +1,66 @@
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #ffcc00;
+}
+
+p {
+    color: #ffffff;
+}
+
+input,
+button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+input {
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+button {
+    background-color: #ffcc00;
+    color: #1a1a1a;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e5b200;
+}
+
+.car {
+    border: 1px solid #666666;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #333333;
+}
+
+.ButtonToDel {
+    background-color: #ff3333;
+    color: #ffffff;
+    border: none;
+    padding: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.ButtonToDel:hover {
+    background-color: #cc0000;
+}
